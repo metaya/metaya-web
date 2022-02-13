@@ -57,28 +57,28 @@
         </div>
         <div class="row px-4">
           <div class="text-center col-md-3 col-sm-6 col-12">
-            <img src="@/assets/JosephZhou.jpg" width="180" class="img-fluid mb-4">
+            <img src="@/assets/team/JosephZhou.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Joseph Zhou</p>
               <p class="member-title">CEO</p>
             </div>
           </div>
           <div class="text-center col-md-3 col-sm-6 col-12">
-            <img src="@/assets/MasKarasawa.jpg" width="180" class="img-fluid mb-4">
+            <img src="@/assets/team/MasKarasawa.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Mas Karasawa</p>
               <p class="member-title">CTO</p>
             </div>
           </div>
           <div class="text-center col-md-3 col-sm-6 col-12">
-            <img src="@/assets/XinTong.jpg" width="180" class="img-fluid mb-4">
+            <img src="@/assets/team/XinTong.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Xin Tong</p>
               <p class="member-title">CPO</p>
             </div>
           </div>
           <div class="text-center col-md-3 col-sm-6 col-12">
-            <img src="@/assets/MimiVong.jpg" width="180" class="img-fluid mb-4">
+            <img src="@/assets/team/MimiVong.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Mimi Vong</p>
               <p class="member-title">CMO</p>
@@ -97,21 +97,21 @@
         </div>
         <div class="row px-6">
           <div class="text-center col-md-4 col-12">
-            <img src="@/assets/AlvinFoo.jpg" width="180" class="img-fluid mb-4">
+            <img src="@/assets/team/AlvinFoo.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Alvin Foo</p>
               <p class="member-title">President of Nasdex</p>
             </div>
           </div>
           <div class="text-center col-md-4 col-12">
-            <img src="@/assets/KohKashiwa.jpg" width="180" class="img-fluid mb-4">
+            <img src="@/assets/team/KohKashiwa.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Koh Kashiwa</p>
               <p class="member-title">Soundlinks CTO</p>
             </div>
           </div>
           <div class="text-center col-md-4 col-12">
-            <img src="@/assets/DonaldZhang.jpg" width="180" class="img-fluid mb-4">
+            <img src="@/assets/team/DonaldZhang.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Donald Zhang</p>
               <p class="member-title">COO</p>
@@ -122,18 +122,18 @@
     </section>
 
     <section id="contact">
-      <div class="container">
-        <div class="row px-0 py-4">
+      <div class="container mb-5">
+        <div class="row px-0 py-5">
           <div class="col-12">
             <h2 class="header mb-5">Have any questions?</h2>
           </div>
         </div>
-        <div class="row">
+        <div class="row pb-5">
           <div class="text-white col-md-4 col-12">
             <p>Perhaps you will find the answer to your question in our documentation. If not, you can always contact us by clicking on the button on the side </p>
           </div>
           <div class="text-right col-md-4 col-12">
-            <button type="button" class="btn btn-outline-light btn-lg ml-3 mb-3">Contact us</button>
+            <button type="button" class="btn btn-primary btn-lg ml-3 mb-3">Contact us</button>
           </div>
           <div class="text-right col-md-4 col-12">
             <button type="button" class="btn btn-outline-light btn-lg ml-3">Join our communitry</button>
@@ -143,41 +143,57 @@
     </section>
 
     <section class="bg-gradient">
-      <div class="container px-6 py-5">
-        <div class="row px-6 my-4">
-          <ul class="nav nav-pills text-white h4">
-            <li class="mr-5">Partners</li>
-            <li class="mr-4">Twitch</li>
-            <li class="mr-4">Gigabytes</li>
-            <li class="mr-4">AMD</li>
-          </ul>
-        </div>
-        <div class="row px-6 my-4">
-          <ul class="nav nav-pills text-white h4">
-            <li class="mr-5">Communities</li>
-            <li class="mr-4">
-              <img src="@/assets/flags/china.png" class="flag">
-              <span>China</span>
-            </li>
-            <li class="mr-4">
-              <img src="@/assets/flags/united-states.png" class="flag">
-              <span>United States</span>
-            </li>
-            <li class="mr-4">
-              <img src="@/assets/flags/spain.png" class="flag">
-              <span>Spain</span>
-            </li>
-            <li class="mr-4">
-              <img src="@/assets/flags/mexico.png" class="flag">
-              <span>Mexico</span>
-            </li>
-          </ul>
-        </div>
-        <div class="row px-6 my-4">
-          <ul class="nav nav-pills text-white h5">
-            <li class="mr-4">Privacy policy</li>
-            <li class="mr-4">Terms & Conditions</li>
-          </ul>
+      <div class="container px-5 py-5">
+        <div class="row">
+          <div class="col-sm-1 col-12">
+            <img src="@/assets/media/facebook.png" class="social mx-2 mb-3">
+            <img src="@/assets/media/instagram.png" class="social mx-2 mb-3">
+            <img src="@/assets/media/twitter.png" class="social mx-2 mb-3">
+            <img src="@/assets/media/linkedin.png" class="social mx-2 mb-3">
+          </div>
+          <div class="col-sm-11 col-12">
+            <div class="px-3 mb-5">
+              <ul class="nav nav-pills text-white h4">
+                <li class="mr-4">Partners</li>
+                <li class="mr-4">
+                  <img src="@/assets/media/twitch.png" class="brand">
+                </li>
+                <li class="mr-4">
+                  <img src="@/assets/media/gigabyte.png" class="brand">
+                </li>
+                <li class="mr-4">
+                  <img src="@/assets/media/amd.png" class="brand">
+                </li>
+              </ul>
+            </div>
+            <div class="px-3 mb-5">
+              <ul class="nav nav-pills text-white h4">
+                <li class="mr-4">Communities</li>
+                <li class="mr-4">
+                  <img src="@/assets/flags/china.png" class="flag">
+                  <span>China</span>
+                </li>
+                <li class="mr-4">
+                  <img src="@/assets/flags/united-states.png" class="flag">
+                  <span>United States</span>
+                </li>
+                <li class="mr-4">
+                  <img src="@/assets/flags/spain.png" class="flag">
+                  <span>Spain</span>
+                </li>
+                <li class="mr-4">
+                  <img src="@/assets/flags/mexico.png" class="flag">
+                  <span>Mexico</span>
+                </li>
+              </ul>
+            </div>
+            <div class="px-3 mb-5">
+              <ul class="nav nav-pills text-white h5">
+                <li class="mr-4">Privacy policy</li>
+                <li class="mr-4">Terms & Conditions</li>
+              </ul>
+            </div>
+          </div>
         </div>
         <div class="row text-center pt-5 my-4">
           <div class="col-12">
@@ -266,6 +282,20 @@ export default {
   font-size: 14px;
   padding: 0;
   margin: 0;
+}
+
+.social {
+  height: 40px;
+  width: 40px;
+}
+
+.right-border {
+  border-right: 1px solid white;
+}
+
+.brand {
+  height: 30px;
+  margin-right: 5px;
 }
 
 .flag {
