@@ -13,7 +13,7 @@
             <h3 class="header text-gradient">Mission</h3>
             <div class="text-white">
               <p class="quotation">
-                METAYA aims to create a decentralized NFT platform dedicated to the Asian eSports cnmmunity and to led the tectonic shift in media distribution, IP monetization and advertising and community building. Built on the Flow blockchain, METAYA will allow eSports fans, collectors, players and IP providers to interact.
+                METAYA aims to create a decentralized NFT platform dedicated to the Asian eSports community and to led the tectonic shift in media distribution, IP monetization and advertising and community building. Built on the Flow blockchain, METAYA will allow eSports fans, collectors, players and IP providers to interact.
               </p>
             </div>
           </div>
@@ -23,7 +23,7 @@
 
     <section>
       <div class="container">
-        <div class="row px-2 py-4">
+        <div class="row px-0 py-4">
           <div class="col-12">
             <h2 class="header bg-gradient mb-5">Traditional Model</h2>
             <p class="text-white pl-3">Traditional consumption model Sports market undervalued.</p>
@@ -35,7 +35,7 @@
 
     <section id="howitworks">
       <div class="container">
-        <div class="row px-2 py-4">
+        <div class="row px-0 py-4">
           <div class="col-12">
             <h2 class="header bg-gradient mb-5">Our Model</h2>
             <ol class="text-white">
@@ -50,35 +50,35 @@
 
     <section id="team">
       <div class="container">
-        <div class="row px-2 py-4">
+        <div class="row px-0 py-4">
           <div class="col-12">
             <h2 class="header bg-gradient mb-5">Our Team</h2>
           </div>
         </div>
         <div class="row px-4">
           <div class="text-center col-md-3 col-sm-6 col-12">
-            <img src="@/assets/JosephZhou.jpg" class="img-fluid mb-4">
+            <img src="@/assets/JosephZhou.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Joseph Zhou</p>
               <p class="member-title">CEO</p>
             </div>
           </div>
           <div class="text-center col-md-3 col-sm-6 col-12">
-            <img src="@/assets/MasKarasawa.jpg" class="img-fluid mb-4">
+            <img src="@/assets/MasKarasawa.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Mas Karasawa</p>
               <p class="member-title">CTO</p>
             </div>
           </div>
           <div class="text-center col-md-3 col-sm-6 col-12">
-            <img src="@/assets/XinTong.jpg" class="img-fluid mb-4">
+            <img src="@/assets/XinTong.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Xin Tong</p>
               <p class="member-title">CPO</p>
             </div>
           </div>
           <div class="text-center col-md-3 col-sm-6 col-12">
-            <img src="@/assets/MimiVong.jpg" class="img-fluid mb-4">
+            <img src="@/assets/MimiVong.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Mimi Vong</p>
               <p class="member-title">CMO</p>
@@ -90,28 +90,28 @@
 
     <section>
       <div class="container">
-        <div class="row px-2 py-4">
+        <div class="row px-0 py-4">
           <div class="col-12">
             <h2 class="header bg-gradient mb-5">Advisors</h2>
           </div>
         </div>
         <div class="row px-6">
           <div class="text-center col-md-4 col-12">
-            <img src="@/assets/AlvinFoo.jpg" class="img-fluid mb-4">
+            <img src="@/assets/AlvinFoo.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Alvin Foo</p>
               <p class="member-title">President of Nasdex</p>
             </div>
           </div>
           <div class="text-center col-md-4 col-12">
-            <img src="@/assets/KohKashiwa.jpg" class="img-fluid mb-4">
+            <img src="@/assets/KohKashiwa.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
-              <p class="member-name">Koh Kashiwaa</p>
+              <p class="member-name">Koh Kashiwa</p>
               <p class="member-title">Soundlinks CTO</p>
             </div>
           </div>
           <div class="text-center col-md-4 col-12">
-            <img src="@/assets/DonaldZhang.jpg" class="img-fluid mb-4">
+            <img src="@/assets/DonaldZhang.jpg" width="180" class="img-fluid mb-4">
             <div class="mb-5">
               <p class="member-name">Donald Zhang</p>
               <p class="member-title">COO</p>
@@ -123,7 +123,7 @@
 
     <section id="contact">
       <div class="container">
-        <div class="row px-2 py-4">
+        <div class="row px-0 py-4">
           <div class="col-12">
             <h2 class="header bg-gradient mb-5">Have any questions?</h2>
           </div>
