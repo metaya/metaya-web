@@ -25,7 +25,7 @@
       <div class="container">
         <div class="row px-0 py-4">
           <div class="col-12">
-            <h2 class="header bg-gradient mb-5">Traditional Model</h2>
+            <h2 class="header header-bg-gradient mb-5">Traditional Model</h2>
             <p class="text-white pl-3">Traditional consumption model Sports market undervalued.</p>
             <img class="banner" src="@/assets/traditional-model.jpg" alt="traditional model">
           </div>
@@ -37,7 +37,7 @@
       <div class="container">
         <div class="row px-0 py-4">
           <div class="col-12">
-            <h2 class="header bg-gradient mb-5">Our Model</h2>
+            <h2 class="header header-bg-gradient mb-5">Our Model</h2>
             <ol class="text-white">
               <li>Metaya creates a fun, interactive, and profitable platform for all parties.</li>
               <li>Renewed identities in Metaverse powered by NFT, digital currency and monetization.</li>
@@ -52,7 +52,7 @@
       <div class="container">
         <div class="row px-0 py-4">
           <div class="col-12">
-            <h2 class="header bg-gradient mb-5">Our Team</h2>
+            <h2 class="header header-bg-gradient mb-5">Our Team</h2>
           </div>
         </div>
         <div class="row px-4">
@@ -92,7 +92,7 @@
       <div class="container">
         <div class="row px-0 py-4">
           <div class="col-12">
-            <h2 class="header bg-gradient mb-5">Advisors</h2>
+            <h2 class="header header-bg-gradient mb-5">Advisors</h2>
           </div>
         </div>
         <div class="row px-6">
@@ -125,7 +125,7 @@
       <div class="container">
         <div class="row px-0 py-4">
           <div class="col-12">
-            <h2 class="header bg-gradient mb-5">Have any questions?</h2>
+            <h2 class="header mb-5">Have any questions?</h2>
           </div>
         </div>
         <div class="row">
@@ -142,12 +142,52 @@
       </div>
     </section>
 
-    <section>
-      <div class="container">
+    <section class="bg-gradient">
+      <div class="container px-6 py-5">
+        <div class="row px-6 my-4">
+          <ul class="nav nav-pills text-white h4">
+            <li class="mr-5">Partners</li>
+            <li class="mr-4">Twitch</li>
+            <li class="mr-4">Gigabytes</li>
+            <li class="mr-4">AMD</li>
+          </ul>
+        </div>
+        <div class="row px-6 my-4">
+          <ul class="nav nav-pills text-white h4">
+            <li class="mr-5">Communities</li>
+            <li class="mr-4">
+              <img src="@/assets/flags/china.png" class="flag">
+              <span>China</span>
+            </li>
+            <li class="mr-4">
+              <img src="@/assets/flags/united-states.png" class="flag">
+              <span>United States</span>
+            </li>
+            <li class="mr-4">
+              <img src="@/assets/flags/spain.png" class="flag">
+              <span>Spain</span>
+            </li>
+            <li class="mr-4">
+              <img src="@/assets/flags/mexico.png" class="flag">
+              <span>Mexico</span>
+            </li>
+          </ul>
+        </div>
+        <div class="row px-6 my-4">
+          <ul class="nav nav-pills text-white h5">
+            <li class="mr-4">Privacy policy</li>
+            <li class="mr-4">Terms & Conditions</li>
+          </ul>
+        </div>
         <div class="row text-center pt-5 my-4">
           <div class="col-12">
-            <img src="@/assets/logo-metaya.png" height="60" class="d-inline-block">
+            <img src="@/assets/logo-metaya.png" height="80" class="d-inline-block">
           </div>
+        </div>
+        <div class="text-center pb-5">
+          <p class="text-white mb-0">
+            &#169;2022 Metaya. All rights reserved.
+          </p>
         </div>
       </div>
     </section>
@@ -195,12 +235,17 @@ export default {
   -moz-text-fill-color: transparent;
 }
 
-.bg-gradient {
+.header-bg-gradient {
   display: inline-block;
   background-image: linear-gradient(90deg, #c531a9, #31a6a1, #000000);
   background-size: 100%;
   border-radius: 18px;
   padding: 7px 75px 7px 18px;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(90deg, #c531a9, #31a6a1);
+  background-size: 100%;
 }
 
 .quotation {
@@ -221,6 +266,12 @@ export default {
   font-size: 14px;
   padding: 0;
   margin: 0;
+}
+
+.flag {
+  vertical-align:sub;
+  height: 30px;
+  margin-right: 5px;
 }
 
 #scroll-to-top {
