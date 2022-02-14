@@ -8,7 +8,7 @@
 
     <section id="about">
       <div class="container">
-        <div class="row text-center px-6 py-4">
+        <div class="row text-center px-md-6 px-sm-3 py-3">
           <div class="col-12">
             <h3 class="header text-gradient">Mission</h3>
             <div class="text-white">
@@ -144,55 +144,26 @@
 
     <section class="bg-gradient">
       <div class="container px-5 py-5">
-        <div class="row">
-          <div class="col-sm-1 col-12">
-            <img src="@/assets/media/facebook.png" class="social mx-2 mb-3">
-            <img src="@/assets/media/instagram.png" class="social mx-2 mb-3">
-            <img src="@/assets/media/twitter.png" class="social mx-2 mb-3">
-            <img src="@/assets/media/linkedin.png" class="social mx-2 mb-3">
+        <div class="row px-2 mb-5">
+          <div class="col-12 text-center text-white">
+            <h4>Partners</h4>
+            <img src="@/assets/media/twitch.png" class="brand">
+            <img src="@/assets/media/gigabyte.png" class="brand">
+            <img src="@/assets/media/amd.png" class="brand">
           </div>
-          <div class="col-sm-11 col-12">
-            <div class="px-3 mb-5">
-              <ul class="nav nav-pills text-white h4">
-                <li class="mr-4">Partners</li>
-                <li class="mr-4">
-                  <img src="@/assets/media/twitch.png" class="brand">
-                </li>
-                <li class="mr-4">
-                  <img src="@/assets/media/gigabyte.png" class="brand">
-                </li>
-                <li class="mr-4">
-                  <img src="@/assets/media/amd.png" class="brand">
-                </li>
-              </ul>
-            </div>
-            <div class="px-3 mb-5">
-              <ul class="nav nav-pills text-white h4">
-                <li class="mr-4">Communities</li>
-                <li class="mr-4">
-                  <img src="@/assets/flags/china.png" class="flag">
-                  <span>China</span>
-                </li>
-                <li class="mr-4">
-                  <img src="@/assets/flags/united-states.png" class="flag">
-                  <span>United States</span>
-                </li>
-                <li class="mr-4">
-                  <img src="@/assets/flags/spain.png" class="flag">
-                  <span>Spain</span>
-                </li>
-                <li class="mr-4">
-                  <img src="@/assets/flags/mexico.png" class="flag">
-                  <span>Mexico</span>
-                </li>
-              </ul>
-            </div>
-            <div class="px-3 mb-5">
-              <ul class="nav nav-pills text-white h5">
-                <li class="mr-4">Privacy policy</li>
-                <li class="mr-4">Terms & Conditions</li>
-              </ul>
-            </div>
+        </div>
+        <div class="row px-2 mb-5">
+          <div class="col-12 text-center text-white">
+            <h4>Communities</h4>
+            <span class="h3 mr-4"><b-icon icon="discord"></b-icon></span>
+            <span class="h3"><b-icon icon="twitter"></b-icon></span>
+          </div>
+        </div>
+        <div class="row px-2 mb-5">
+          <div class="col-12 text-center text-white">
+            <h4>Communities</h4>
+            <span class="mr-4">Privacy policy</span>
+            <span>Terms & Conditions</span>
           </div>
         </div>
         <div class="row text-center pt-5 my-4">
@@ -207,22 +178,12 @@
         </div>
       </div>
     </section>
-
-    <b-button variant="outline-primary" id="scroll-to-top" @click="scrollTop">
-      <b-icon-arrow-up></b-icon-arrow-up>
-    </b-button>
   </div>
 </template>
 
 <script>
 export default {
   name: 'Home',
-  methods: {
-    scrollTop() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    },
-  },
 };
 </script>
 
@@ -238,6 +199,15 @@ export default {
   font-weight: lighter;
   letter-spacing: .3em;
   color: white;
+}
+
+@media only screen and (max-width: 576px) {
+  .header {
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: .1em;
+    color: white;
+  }
 }
 
 .text-gradient {

@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-navbar class="bg-black" toggleable="lg" type="dark" variant="dark">
-      <de-navbar-brand class="mx-5" />
+      <de-navbar-brand class="mx-4" />
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
