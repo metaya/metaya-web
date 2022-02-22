@@ -4,7 +4,8 @@
       <div class="container d-flex h-100">
         <div class="row">
           <div class="col-md-6 col-12 align-self-center py-4">
-            <h2 class="text-white text-center"><strong class="text-secondary">Building the first</strong> Metaverse ready <br> NFT platform dedicated to e-Sports.</h2>
+            <h4 v-if="isMobile" class="text-white text-center"><strong class="text-secondary">Building the first</strong> Metaverse ready NFT platform dedicated to e-Sports.</h4>
+            <h2 v-else class="text-white text-center"><strong class="text-secondary">Building the first</strong> Metaverse ready <br> NFT platform dedicated to e-Sports.</h2>
           </div>
           <div class="col-md-6 col-12 py-4">
             <video controls="controls" src="@/assets/metaya-banner.mp4#t=0.5" width="100%">
@@ -218,7 +219,7 @@
                 <div class="col-7 align-self-center">
                   <div>
                     <p class="member-name text-white">Mimi Vong</p>
-                    <p class="member-title text-primary">CFO</p>
+                    <p class="member-title text-primary">CMO</p>
                     <img src="@/assets/team/mimi-career.png" class="member-career">
                     <div>
                       <a href="https://www.linkedin.com/in/mimivong/" target="_blank"><img src="@/assets/media/linkedin.png" class="member-social"></a>
@@ -236,7 +237,7 @@
               <img src="@/assets/team/mimi-vong.png" width="200px" class="rounded-circle mb-4">
               <div>
                 <p class="member-name text-white">Mimi Vong</p>
-                <p class="member-title text-primary">CFO</p>
+                <p class="member-title text-primary">CMO</p>
                 <img src="@/assets/team/mimi-career.png" class="member-career">
                 <div>
                   <a href="https://www.linkedin.com/in/mimivong/" target="_blank"><img src="@/assets/media/linkedin.png" class="member-social"></a>
@@ -257,7 +258,7 @@
       <div class="container">
         <div class="row mb-4">
           <div class="col-12 text-center">
-            <h2 class="header-2 header-bg-gradient">Advisors</h2>
+            <h2 class="header-2 header-bg-gradient">Our Advisors</h2>
           </div>
         </div>
         <div class="row text-center">
@@ -346,7 +347,7 @@
                 <div class="col-7 align-self-center">
                   <div>
                     <p class="member-name text-white">Donald Zhang</p>
-                    <p class="member-title text-primary">COO</p>
+                    <p class="member-title text-primary">Investor</p>
                     <div>
                       <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/pawfectworld" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
@@ -363,7 +364,7 @@
               <img src="@/assets/team/donald-zhang.png" width="200px" class="rounded-circle mb-4">
               <div>
                 <p class="member-name text-white">Donald Zhang</p>
-                <p class="member-title text-primary">COO</p>
+                <p class="member-title text-primary">Investor</p>
                 <div>
                   <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/pawfectworld" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
@@ -464,7 +465,8 @@
             <h1 class="header-2 header-bg-gradient">Roadmap</h1>
             <div class="h5 text-white text-left mt-3 mb-5 px-md-5 px-2">
               <p class="mb-1">• IDO wil be completed by 2022 Q1.</p>
-              <p class="mb-1">• Metaverse-ready in 2022 Q4 Full stacks ready including Applications, PaaS and Blockchain Layer.</p>
+              <p class="mb-1">• Metaverse-ready in 2022 Q4.</p>
+              <p class="mb-1">• Full stacks ready including Applications, PaaS and Blockchain Layer.</p>
             </div>
             <div class="row">
               <div class="col-12 text-center px-5">
@@ -491,8 +493,12 @@
         </div>
         <div class="row px-2 mb-5">
           <div class="col-12 text-center text-white">
-            <img src="@/assets/media/media-linkedin.png" width="40px" class="mx-3">
-            <img src="@/assets/media/media-twitter.png" width="40px" class="mx-3">
+            <a href="https://www.linkedin.com/company/metaya" target="_blank">
+              <img src="@/assets/media/media-linkedin.png" width="40px" class="mx-3">
+            </a>
+            <a href="https://twitter.com/metaya_io" target="_blank">
+              <img src="@/assets/media/media-twitter.png" width="40px" class="mx-3">
+            </a>
             <img src="@/assets/media/media-discord.png" width="40px" class="mx-3">
             <a href="https://t.me/metaya" target="_blank">
               <img src="@/assets/media/media-telegram.png" width="40px" class="mx-3">
