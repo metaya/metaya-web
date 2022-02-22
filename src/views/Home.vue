@@ -141,7 +141,7 @@
                     <p class="member-title text-primary">CTO</p>
                     <img src="@/assets/team/mas-career.png" class="member-career">
                     <div>
-                      <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
+                      <a href="https://www.linkedin.cn/injobs/in/mas-karasawa-256308113" target="_blank"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/masrk777" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
                     <div>
@@ -159,7 +159,7 @@
                 <p class="member-title text-primary">CTO</p>
                 <img src="@/assets/team/mas-career.png" class="member-career">
                 <div>
-                  <a href="https://www.linkedin.cn/injobs/in/mas-karasawa-256308113"><img src="@/assets/media/linkedin.png" class="member-social"></a>
+                  <a href="https://www.linkedin.cn/injobs/in/mas-karasawa-256308113" target="_blank"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/masrk777" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                 </div>
                 <div>
@@ -182,7 +182,7 @@
                     <img src="@/assets/team/xin-career.png" class="member-career">
                     <div>
                       <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
-                      <a href="#" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                      <a href="#"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
                     <div>
                       <b-link id="tooltip-xin" class="text-white">More details</b-link>
@@ -200,7 +200,7 @@
                 <img src="@/assets/team/xin-career.png" class="member-career">
                 <div>
                   <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
-                  <a href="#" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                  <a href="#"><img src="@/assets/media/twitter.png" class="member-social"></a>
                 </div>
                 <div>
                   <b-link id="tooltip-xin" class="text-white">More details</b-link>
@@ -221,7 +221,7 @@
                     <p class="member-title text-primary">CFO</p>
                     <img src="@/assets/team/mimi-career.png" class="member-career">
                     <div>
-                      <a href="https://www.linkedin.com/in/mimivong/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
+                      <a href="https://www.linkedin.com/in/mimivong/" target="_blank"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/mimivong" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
                     <div>
@@ -239,7 +239,7 @@
                 <p class="member-title text-primary">CFO</p>
                 <img src="@/assets/team/mimi-career.png" class="member-career">
                 <div>
-                  <a href="https://www.linkedin.com/in/mimivong/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
+                  <a href="https://www.linkedin.com/in/mimivong/" target="_blank"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/mimivong" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                 </div>
                 <div>
@@ -272,7 +272,7 @@
                     <p class="member-name text-white">Alvin Foo</p>
                     <p class="member-title text-primary">President of Nasdex</p>
                     <div>
-                      <a href="https://www.linkedin.com/in/alvinfsc/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
+                      <a href="https://www.linkedin.com/in/alvinfsc/" target="_blank"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/Alvinfoo" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
                     <div>
@@ -289,7 +289,7 @@
                 <p class="member-name text-white">Alvin Foo</p>
                 <p class="member-title text-primary">President of Nasdex</p>
                 <div>
-                  <a href="https://www.linkedin.com/in/alvinfsc/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
+                  <a href="https://www.linkedin.com/in/alvinfsc/" target="_blank"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/Alvinfoo" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                 </div>
                 <div>
@@ -311,7 +311,7 @@
                     <p class="member-title text-primary">CTO Soundlinks</p>
                     <div>
                       <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
-                      <a href="#" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                      <a href="#"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
                     <div>
                       <b-link id="tooltip-koh" class="text-white">More details</b-link>
@@ -328,7 +328,7 @@
                 <p class="member-title text-primary">CTO Soundlinks</p>
                 <div>
                   <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
-                  <a href="#" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                  <a href="#"><img src="@/assets/media/twitter.png" class="member-social"></a>
                 </div>
                 <div>
                   <b-link id="tooltip-koh" class="text-white">More details</b-link>
@@ -494,7 +494,9 @@
             <img src="@/assets/media/media-linkedin.png" width="40px" class="mx-3">
             <img src="@/assets/media/media-twitter.png" width="40px" class="mx-3">
             <img src="@/assets/media/media-discord.png" width="40px" class="mx-3">
-            <img src="@/assets/media/media-telegram.png" width="40px" class="mx-3">
+            <a href="https://t.me/metaya" target="_blank">
+              <img src="@/assets/media/media-telegram.png" width="40px" class="mx-3">
+            </a>
           </div>
         </div>
         <div class="row px-2 mb-5">
