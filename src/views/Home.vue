@@ -571,7 +571,6 @@ export default {
   font-weight: bold;
   color: white;
   margin: 25px 10px;
-  letter-spacing: 0.1em;
 }
 
 @media only screen and (max-width: 768px) {
