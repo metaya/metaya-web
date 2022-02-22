@@ -421,7 +421,7 @@
       </div>
     </section>
 
-    <section id="contact" class="bg-gradient-image">
+    <section id="contact">
       <div class="container pb-4">
         <div class="row px-5 pt-5 mb-5">
           <div class="text-center col-12">
@@ -530,14 +530,6 @@ export default {
 .bg-gradient {
   background-image: linear-gradient(90deg, #c531a9, #00a6a1);
   background-size: 100%;
-}
-
-.bg-gradient-image {
-  background: url("~@/assets/footer-bg.png") no-repeat top center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 
 .quotation {
