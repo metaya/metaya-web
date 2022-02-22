@@ -250,7 +250,7 @@
             <div v-else>
               <img src="@/assets/team/alvin-foo.png" width="200px" class="rounded-circle mb-4">
               <div>
-                <p class="member-name text-white">JAlvin Foo</p>
+                <p class="member-name text-white">Alvin Foo</p>
                 <p class="member-title text-primary">President of Nasdex</p>
                 <div>
                   <a href="https://www.linkedin.com/in/alvinfsc/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
