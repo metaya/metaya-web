@@ -554,7 +554,7 @@ export default {
 .header {
   text-transform: uppercase;
   font-size: 44px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   color: white;
   margin: 25px 10px;
 }
@@ -568,7 +568,7 @@ export default {
 .header-2 {
   text-transform: uppercase;
   font-size: 32px;
-  font-weight: bold;
+  /*font-weight: bold;*/
   color: white;
   margin: 25px 10px;
 }
