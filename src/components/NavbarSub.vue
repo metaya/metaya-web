@@ -30,15 +30,15 @@ export default {
 
 <style>
 .navbar-dark .navbar-nav .nav-link {
-  color: rgb(255, 255, 255) !important;
+  color: #ffffff !important;
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: rgb(255, 255, 255, 0.8) !important;
+  color: #c531a9 !important;
 }
 
 .nav-item {
-  margin: 0 15px;
+  margin: 0 10px;
+  font-size: 20px;
 }
-
 </style>

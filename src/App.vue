@@ -11,13 +11,18 @@ export default {
 </script>
 
 <style>
+@font-face {
+  font-family: "Outfit";
+  src: url("~@/assets/fonts/Outfit-Regular.ttf") format("truetype");
+}
+
 html {
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
 #app {
-  font-family: "Josefin Sans", -apple-system, "Helvetica Neue", Arial, "Microsoft Yahei", sans-serif;
+  font-family: "Outfit", -apple-system, "Helvetica Neue", Arial, "Microsoft Yahei", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,16 +32,11 @@ body {
   overflow-x: hidden;
 }
 
+section {
+  margin-top: 1em;
+}
+
 a {
   text-decoration: none !important;
-}
-
-.bg-black {
-  background-color: #000000 !important;
-}
-
-.px-6 {
-  padding-left: 6rem !important;
-  padding-right: 6rem !important;
 }
 </style>
