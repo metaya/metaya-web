@@ -39,4 +39,15 @@ section {
 a {
   text-decoration: none !important;
 }
+
+.tooltip-inner {
+  font-family: "Outfit", -apple-system, "Helvetica Neue", Arial, "Microsoft Yahei", sans-serif;
+  color: #ffffff !important;
+  background-color: #c531a9 !important;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+  border-top-color: #c531a9 !important;
+}
+
 </style>

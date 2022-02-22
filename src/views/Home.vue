@@ -7,7 +7,7 @@
             <h2 class="text-white text-center"><strong class="text-secondary">Building the first</strong> Metaverse ready <br> NFT platform dedicated to e-Sports.</h2>
           </div>
           <div class="col-md-6 col-12 py-4">
-            <video controls="controls" src="@/assets/metaya-banner.mp4" width="100%">
+            <video controls="controls" src="@/assets/metaya-banner.mp4#t=0.5" width="100%">
               Your browser does not support the HTML5 video element.
             </video>
           </div>
@@ -104,6 +104,10 @@
                       <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/JosephZhou01" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
+                    <div>
+                      <b-link id="tooltip-joseph" class="text-white">More details</b-link>
+                      <b-tooltip target="tooltip-joseph">{{ profile.joseph }}</b-tooltip>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -117,6 +121,10 @@
                 <div>
                   <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/JosephZhou01" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                </div>
+                <div>
+                  <b-link id="tooltip-joseph" class="text-white">More details</b-link>
+                  <b-tooltip target="tooltip-joseph">{{ profile.joseph }}</b-tooltip>
                 </div>
               </div>
             </div>
@@ -136,6 +144,10 @@
                       <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/masrk777" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
+                    <div>
+                      <b-link id="tooltip-mas" class="text-white">More details</b-link>
+                      <b-tooltip target="tooltip-mas">{{ profile.mas }}</b-tooltip>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -147,8 +159,12 @@
                 <p class="member-title text-primary">CTO</p>
                 <img src="@/assets/team/mas-career.png" class="member-career">
                 <div>
-                  <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
+                  <a href="https://www.linkedin.cn/injobs/in/mas-karasawa-256308113"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/masrk777" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                </div>
+                <div>
+                  <b-link id="tooltip-mas" class="text-white">More details</b-link>
+                  <b-tooltip target="tooltip-mas">{{ profile.mas }}</b-tooltip>
                 </div>
               </div>
             </div>
@@ -168,6 +184,10 @@
                       <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="#" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
+                    <div>
+                      <b-link id="tooltip-xin" class="text-white">More details</b-link>
+                      <b-tooltip target="tooltip-xin">{{ profile.xin }}</b-tooltip>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -181,6 +201,10 @@
                 <div>
                   <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="#" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                </div>
+                <div>
+                  <b-link id="tooltip-xin" class="text-white">More details</b-link>
+                  <b-tooltip target="tooltip-xin">{{ profile.xin }}</b-tooltip>
                 </div>
               </div>
             </div>
@@ -200,6 +224,10 @@
                       <a href="https://www.linkedin.com/in/mimivong/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/mimivong" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
+                    <div>
+                      <b-link id="tooltip-mimi" class="text-white">More details</b-link>
+                      <b-tooltip target="tooltip-mimi">{{ profile.mimi }}</b-tooltip>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -213,6 +241,10 @@
                 <div>
                   <a href="https://www.linkedin.com/in/mimivong/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/mimivong" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                </div>
+                <div>
+                  <b-link id="tooltip-mimi" class="text-white">More details</b-link>
+                  <b-tooltip target="tooltip-mimi">{{ profile.mimi }}</b-tooltip>
                 </div>
               </div>
             </div>
@@ -243,6 +275,10 @@
                       <a href="https://www.linkedin.com/in/alvinfsc/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/Alvinfoo" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
+                    <div>
+                      <b-link id="tooltip-alvin" class="text-white">More details</b-link>
+                      <b-tooltip target="tooltip-alvin">{{ profile.alvin }}</b-tooltip>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -255,6 +291,10 @@
                 <div>
                   <a href="https://www.linkedin.com/in/alvinfsc/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/Alvinfoo" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                </div>
+                <div>
+                  <b-link id="tooltip-alvin" class="text-white">More details</b-link>
+                  <b-tooltip target="tooltip-alvin">{{ profile.alvin }}</b-tooltip>
                 </div>
               </div>
             </div>
@@ -273,6 +313,10 @@
                       <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="#" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
+                    <div>
+                      <b-link id="tooltip-koh" class="text-white">More details</b-link>
+                      <b-tooltip target="tooltip-koh">{{ profile.koh }}</b-tooltip>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -285,6 +329,10 @@
                 <div>
                   <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="#" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                </div>
+                <div>
+                  <b-link id="tooltip-koh" class="text-white">More details</b-link>
+                  <b-tooltip target="tooltip-koh">{{ profile.koh }}</b-tooltip>
                 </div>
               </div>
             </div>
@@ -303,6 +351,10 @@
                       <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/pawfectworld" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
+                    <div>
+                      <b-link id="tooltip-donald" class="text-white">More details</b-link>
+                      <b-tooltip target="tooltip-donald">{{ profile.donald }}</b-tooltip>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -315,6 +367,10 @@
                 <div>
                   <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/pawfectworld" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
+                </div>
+                <div>
+                  <b-link id="tooltip-donald" class="text-white">More details</b-link>
+                  <b-tooltip target="tooltip-donald">{{ profile.donald }}</b-tooltip>
                 </div>
               </div>
             </div>
@@ -463,6 +519,19 @@
 <script>
 export default {
   name: 'Home',
+  data() {
+    return {
+      profile: {
+        joseph: 'Visionary strategic thinker, entrepreneur and lifelong learner trusted by McKinsey, Bytedance and Alibaba and steered well in East-west thinking. Serial entrepreneur including CEO of Momi Education and CEO of UUabc. Received 3 master degrees from U of Chicago and legal degree in law from Peking University. Author of best-selling book "McKinsey\'s structured strategic thinking".',
+        mas: 'Academia-turn-entrepreneur with over 20 years experience in the ICT industry. Experienced Blockchain expert and architect and understand what it takes to build from 0 to 1 and scale it from 10 to 100. CEO of Soundlinks and previous CEO of Pixela Overseas Business.',
+        xin: 'Hard-core eSports enthusiast. Super-connected and well respected in the eSports industry with over 15 years executive and coaching experience in eSports Clubs including People’s eSports, TongFu & Newbee Club, RNG and championed players including Hao, Mu, SCCC, Ruoji and more.',
+        mimi: 'Marketing by training, growth hacker at heart. Always fascinated by the story behind the numbers and how to turn them into actions. Executive experience ranging from marketing the latest carbonated soft drinks at PepsiCo to building the go-to-market plan for luxury e-commerce conglomerate in China. Graduated from UC Berkeley in Political Economy.',
+        alvin: 'Voted Top 100 most influential person in social media. Previously Google China\'s Head of Mobile; IPG Reprise China\'s Managing Director; Omnicom Media Group China\'s Head of Mobility & Innovation; Advisors for SXSW, China Accelerator & Sparklabs Korea. Well-sought after speaker in blockchain community.',
+        koh: 'Pioneer in ICT industry. Holder of 200+ patents related to video/audio processing. Previous experience include Lead scientist at Sony and received the Sony President\'s Award, one of the highest recognition in the industry. Master from Northeastern University, Japan.',
+        donald: 'Executive management experience in AI technology, M&A and go-to-market strategy from local to global. Previously worked in Tencent and BCG. Dual master degrees from Stanford and MBA from U of Chicago and BS from Fudan University.',
+      },
+    };
+  },
   created() {
   },
 };
@@ -575,21 +644,6 @@ export default {
   .member-career {
     margin: 5px 0;
   }
-}
-
-.social {
-  height: 40px;
-  width: 40px;
-}
-
-.right-border {
-  border-right: 1px solid white;
-}
-
-.flag {
-  vertical-align:sub;
-  height: 30px;
-  margin-right: 5px;
 }
 
 #scroll-to-top {
