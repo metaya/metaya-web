@@ -20,7 +20,7 @@
       <div class="container mb-5">
         <div class="row">
           <div class="col-12 text-center">
-            <h1 class="header text-gradient">Mision</h1>
+            <h1 class="header text-gradient">Mission</h1>
             <div class="text-white">
               <p class="quotation">
                 METAYA aims to create a decentralized NFT platform dedicated to the Asian eSports community and to led the tectonic shift in media distribution, IP monetization and advertising and community building. Built on the Flow blockchain, METAYA will allow eSports fans, collectors, players and IP providers to interact.
