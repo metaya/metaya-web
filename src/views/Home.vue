@@ -94,7 +94,7 @@
             <div v-if="isMobile">
               <div class="row d-flex h-100">
                 <div class="col-5 align-self-center">
-                  <img src="@/assets/team/joseph-zhou.png" width="100%" class="rounded-circle">
+                  <img src="@/assets/team/joseph-zhou.jpg" width="100%" class="rounded-circle">
                 </div>
                 <div class="col-7 align-self-center">
                   <div>
@@ -114,7 +114,7 @@
               </div>
             </div>
             <div v-else>
-              <img src="@/assets/team/joseph-zhou.png" width="200px" class="rounded-circle mb-4">
+              <img src="@/assets/team/joseph-zhou.jpg" width="200px" class="rounded-circle mb-4">
               <div>
                 <p class="member-name text-white">Joseph Zhou</p>
                 <p class="member-title text-primary">CEO</p>
