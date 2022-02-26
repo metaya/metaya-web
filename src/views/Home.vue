@@ -102,7 +102,7 @@
                     <p class="member-title text-primary">CEO</p>
                     <img src="@/assets/team/joseph-career.png" class="member-career">
                     <div>
-                      <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
+                      <a href="https://www.linkedin.com/in/josephzhou01/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/JosephZhou01" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
                     <div>
@@ -120,7 +120,7 @@
                 <p class="member-title text-primary">CEO</p>
                 <img src="@/assets/team/joseph-career.png" class="member-career">
                 <div>
-                  <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
+                  <a href="https://www.linkedin.com/in/josephzhou01/"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/JosephZhou01" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                 </div>
                 <div>
@@ -147,7 +147,7 @@
                     </div>
                     <div>
                       <b-link id="tooltip-mas" class="text-white">More details</b-link>
-                      <b-tooltip target="tooltip-mas">{{ profile.mas }}</b-tooltip>
+                      <b-tooltip target="tooltip-mas">{{ profile.mas[0] }}<br/>{{ profile.mas[1] }}</b-tooltip>
                     </div>
                   </div>
                 </div>
@@ -165,7 +165,7 @@
                 </div>
                 <div>
                   <b-link id="tooltip-mas" class="text-white">More details</b-link>
-                  <b-tooltip target="tooltip-mas">{{ profile.mas }}</b-tooltip>
+                  <b-tooltip target="tooltip-mas">{{ profile.mas[0] }}<br/>{{ profile.mas[1] }}</b-tooltip>
                 </div>
               </div>
             </div>
@@ -182,10 +182,6 @@
                     <p class="member-title text-primary">CPO</p>
                     <img src="@/assets/team/xin-career.png" class="member-career">
                     <div>
-                      <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
-                      <a href="#"><img src="@/assets/media/twitter.png" class="member-social"></a>
-                    </div>
-                    <div>
                       <b-link id="tooltip-xin" class="text-white">More details</b-link>
                       <b-tooltip target="tooltip-xin">{{ profile.xin }}</b-tooltip>
                     </div>
@@ -199,10 +195,6 @@
                 <p class="member-name text-white">Xin Tong</p>
                 <p class="member-title text-primary">CPO</p>
                 <img src="@/assets/team/xin-career.png" class="member-career">
-                <div>
-                  <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
-                  <a href="#"><img src="@/assets/media/twitter.png" class="member-social"></a>
-                </div>
                 <div>
                   <b-link id="tooltip-xin" class="text-white">More details</b-link>
                   <b-tooltip target="tooltip-xin">{{ profile.xin }}</b-tooltip>
@@ -227,7 +219,7 @@
                     </div>
                     <div>
                       <b-link id="tooltip-mimi" class="text-white">More details</b-link>
-                      <b-tooltip target="tooltip-mimi">{{ profile.mimi }}</b-tooltip>
+                      <b-tooltip target="tooltip-mimi">{{ profile.mimi[0] }}<br/>{{ profile.mimi[1] }}<br/>{{ profile.mimi[2] }}</b-tooltip>
                     </div>
                   </div>
                 </div>
@@ -245,7 +237,7 @@
                 </div>
                 <div>
                   <b-link id="tooltip-mimi" class="text-white">More details</b-link>
-                  <b-tooltip target="tooltip-mimi">{{ profile.mimi }}</b-tooltip>
+                  <b-tooltip target="tooltip-mimi">{{ profile.mimi[0] }}<br/>{{ profile.mimi[1] }}<br/>{{ profile.mimi[2] }}</b-tooltip>
                 </div>
               </div>
             </div>
@@ -311,10 +303,6 @@
                     <p class="member-name text-white">Koh Kashiwa</p>
                     <p class="member-title text-primary">CTO Soundlinks</p>
                     <div>
-                      <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
-                      <a href="#"><img src="@/assets/media/twitter.png" class="member-social"></a>
-                    </div>
-                    <div>
                       <b-link id="tooltip-koh" class="text-white">More details</b-link>
                       <b-tooltip target="tooltip-koh">{{ profile.koh }}</b-tooltip>
                     </div>
@@ -327,10 +315,6 @@
               <div>
                 <p class="member-name text-white">Koh Kashiwa</p>
                 <p class="member-title text-primary">CTO Soundlinks</p>
-                <div>
-                  <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
-                  <a href="#"><img src="@/assets/media/twitter.png" class="member-social"></a>
-                </div>
                 <div>
                   <b-link id="tooltip-koh" class="text-white">More details</b-link>
                   <b-tooltip target="tooltip-koh">{{ profile.koh }}</b-tooltip>
@@ -349,7 +333,6 @@
                     <p class="member-name text-white">Donald Zhang</p>
                     <p class="member-title text-primary">Investor</p>
                     <div>
-                      <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                       <a href="https://twitter.com/pawfectworld" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                     </div>
                     <div>
@@ -366,7 +349,6 @@
                 <p class="member-name text-white">Donald Zhang</p>
                 <p class="member-title text-primary">Investor</p>
                 <div>
-                  <a href="#"><img src="@/assets/media/linkedin.png" class="member-social"></a>
                   <a href="https://twitter.com/pawfectworld" target="_blank"><img src="@/assets/media/twitter.png" class="member-social"></a>
                 </div>
                 <div>
@@ -530,10 +512,17 @@ export default {
   data() {
     return {
       profile: {
-        joseph: 'Visionary strategic thinker, entrepreneur and lifelong learner trusted by McKinsey, Bytedance and Alibaba and steered well in East-west thinking. Serial entrepreneur including CEO of Momi Education and CEO of UUabc. Received 3 master degrees from U of Chicago and legal degree in law from Peking University. Author of best-selling book "McKinsey\'s structured strategic thinking".',
-        mas: 'Academia-turn-entrepreneur with over 20 years experience in the ICT industry. Experienced Blockchain expert and architect and understand what it takes to build from 0 to 1 and scale it from 10 to 100. CEO of Soundlinks and previous CEO of Pixela Overseas Business.',
+        joseph: 'Visionary strategic thinker, and serial entrepreneur trusted by McKinsey, Bytedance and Alibaba and steered well in East-west thinking. Proven leadership including serving as CEO of MoMi Learning and CEO of UUabc. Received 3 master degrees including MBA from U of Chicago and law degree from Peking University.',
+        mas: [
+          'Experienced blockchain expert and architect, led SOUNDLINKS technology in DID for audible digital assets (NFTs).',
+          'Academia-turn-entrepreneur with over 20 years experience in the ICT industry. PhD in Computer Science from Tokyo University. Researcher of supercomputing, AI, graphics processing, audio-video encoding/decoding and distributed systems. Namer of GPU. CEO of Soundlinks and previous CEO of Pixela Overseas Business.',
+        ],
         xin: 'Hard-core eSports enthusiast. Super-connected and well respected in the eSports industry with over 15 years executive and coaching experience in eSports Clubs including People’s eSports, TongFu & Newbee Club, RNG and championed players including Hao, Mu, SCCC, Ruoji and more.',
-        mimi: 'Marketing by training, growth hacker at heart. Always fascinated by the story behind the numbers and how to turn them into actions. Executive experience ranging from marketing the latest carbonated soft drinks at PepsiCo to building the go-to-market plan for luxury e-commerce conglomerate in China. Graduated from UC Berkeley in Political Economy.',
+        mimi: [
+          'Avid blockchain marketer and crypto investor since 2018, Mimi has participated and won in a number of blockchain hackathon and acted as advisors in a number of Defi projects.',
+          'Marketing by training, growth hacker at heart, Mimi is always fascinated by the story behind numbers.',
+          'Executive experience in PepsioCo and YNAP. Graduated from UC Berkeley in International Political Economy',
+        ],
         alvin: 'Voted Top 100 most influential person in social media. Previously Google China\'s Head of Mobile; IPG Reprise China\'s Managing Director; Omnicom Media Group China\'s Head of Mobility & Innovation; Advisors for SXSW, China Accelerator & Sparklabs Korea. Well-sought after speaker in blockchain community.',
         koh: 'Pioneer in ICT industry. Holder of 200+ patents related to video/audio processing. Previous experience include Lead scientist at Sony and received the Sony President\'s Award, one of the highest recognition in the industry. Master from Northeastern University, Japan.',
         donald: 'Executive management experience in AI technology, M&A and go-to-market strategy from local to global. Previously worked in Tencent and BCG. Dual master degrees from Stanford and MBA from U of Chicago and BS from Fudan University.',
